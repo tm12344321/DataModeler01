@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D113BC0B-896C-1FD5-0027-A9A3EA0D98B5" name="Projekt">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:33:03 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdProjektu" id="A3768939-BE5E-72AD-DEFF-7203BB812FE8">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:33:12 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="14E08433-3D62-59D3-B4F8-CD9B1BC80CA7">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:33:27 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEF13AF3-2141-4410-E7B0-5C6548B1FCE8" name="Projekt_PK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:53:35 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A3768939-BE5E-72AD-DEFF-7203BB812FE8</newElementsIDs>
+<usedAttributes>
+<attributeRef>A3768939-BE5E-72AD-DEFF-7203BB812FE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

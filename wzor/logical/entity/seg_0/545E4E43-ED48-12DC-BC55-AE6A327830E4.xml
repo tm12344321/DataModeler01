@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="545E4E43-ED48-12DC-BC55-AE6A327830E4" name="Proj_Prac">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:34:03 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPracownika" id="4C73D09E-4BC1-B7B6-87FD-440F3BEEA751">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:34:33 UTC</createdTime>
+<generatorID>FA5D1041-F224-30EA-6497-500BFF21BB64</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<referedAttribute>66A12690-4C25-3237-55A5-625546D60476</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdProjektu" id="D817F740-0408-BC8C-64D4-8FE79B02DEAC">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:53:56 UTC</createdTime>
+<generatorID>D42D89F7-57D8-5217-2A87-1B2C99280011</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<referedAttribute>A3768939-BE5E-72AD-DEFF-7203BB812FE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C59B396-7C77-3E11-33DD-2C01DAABB6DA" name="Proj_Prac PK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:34:33 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>FA5D1041-F224-30EA-6497-500BFF21BB64,D42D89F7-57D8-5217-2A87-1B2C99280011</newElementsIDs>
+<usedAttributes>
+<attributeRef>4C73D09E-4BC1-B7B6-87FD-440F3BEEA751</attributeRef>
+<attributeRef>D817F740-0408-BC8C-64D4-8FE79B02DEAC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

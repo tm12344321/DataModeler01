@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3D00CB6-1CFF-DB4D-2DCF-C5A6C36A0F49" name="Department">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:46:59 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DepartmentId" id="97D93CD9-F41D-7989-6005-5E48AA0478F9">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:47:11 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwa" id="8A1CC6E1-67AF-1651-A20D-7455049B1BE1">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:47:23 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7FBEE624-DCC4-54D6-663E-EECC0DECD7CD" name="Department_PK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:47:55 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>97D93CD9-F41D-7989-6005-5E48AA0478F9</newElementsIDs>
+<usedAttributes>
+<attributeRef>97D93CD9-F41D-7989-6005-5E48AA0478F9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

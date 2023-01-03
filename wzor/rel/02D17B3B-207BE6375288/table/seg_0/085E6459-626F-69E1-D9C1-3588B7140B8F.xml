@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="085E6459-626F-69E1-D9C1-3588B7140B8F" name="Projekt">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>D113BC0B-896C-1FD5-0027-A9A3EA0D98B5</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdProjektu" id="964B31C0-42F1-5111-0185-ED0135D345F0">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>A3768939-BE5E-72AD-DEFF-7203BB812FE8</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nazwa" id="516882C1-9E24-63BB-B614-2993FD86129E">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>14E08433-3D62-59D3-B4F8-CD9B1BC80CA7</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8B47552-C781-E371-7391-63B272720727" name="Projekt_PK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>EEF13AF3-2141-4410-E7B0-5C6548B1FCE8</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="964B31C0-42F1-5111-0185-ED0135D345F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="37C8BFC3-F28E-4020-62F5-0A7F96F35063" name="V_Department">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW V_Department
+  ( DepartmentId
+   , Nazwa )
+ AS SELECT
+    DepartmentId
+   , Nazwa
+ FROM 
+    Department ;]]></userDefinedSQL>
+<parsed>true</parsed>
+<originalTableID>E4B06666-D58E-8A71-CC09-E362516A9CB0</originalTableID>
+<usedContainers>
+<container containerID="E4B06666-D58E-8A71-CC09-E362516A9CB0"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DepartmentId" id="174548CD-7145-236F-B2E1-699B9CF1191C">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>89CADF09-ECAE-8C7C-1BA9-436363315936</referencedColumn>
+<table>E4B06666-D58E-8A71-CC09-E362516A9CB0</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Nazwa" id="1FAE96A5-39E1-38C1-3041-295C9844EE2B">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (100)</dataType>
+<reference>false</reference>
+<referencedColumn>D867FC5E-3EAF-E7A1-20F3-E4EBD5360803</referencedColumn>
+<table>E4B06666-D58E-8A71-CC09-E362516A9CB0</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="E4B06666-D58E-8A71-CC09-E362516A9CB0">
+<container>true</container>
+<tableName>Department</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="89CADF09-ECAE-8C7C-1BA9-436363315936">
+<columnName>DepartmentId</columnName>
+<tableName>Department</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="D867FC5E-3EAF-E7A1-20F3-E4EBD5360803">
+<columnName>Nazwa</columnName>
+<tableName>Department</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

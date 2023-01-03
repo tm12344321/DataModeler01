@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="0B531ED5-982A-B524-2725-84D7A6FEFD39" name="V_Pracownik">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[CREATE VIEW V_Pracownik
+  ( IdPracownika
+   , Imie
+   , Nazwisko
+   , Department_DepartmentId )
+ AS SELECT
+    IdPracownika
+   , Imie
+   , Nazwisko
+   , Department_DepartmentId
+ FROM 
+    Pracownik ;]]></userDefinedSQL>
+<parsed>true</parsed>
+<originalTableID>FC736E5C-F6B5-CFB1-3382-F73A69422277</originalTableID>
+<usedContainers>
+<container containerID="FC736E5C-F6B5-CFB1-3382-F73A69422277"/>
+</usedContainers>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="IdPracownika" id="8A6E48B4-FD9B-97B5-9F9E-2A7AD8D50596">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>05323809-E370-25BC-234D-095E0DE8E101</referencedColumn>
+<table>FC736E5C-F6B5-CFB1-3382-F73A69422277</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Imie" id="E8C7AFED-8020-F9C2-10AC-5E090E77A450">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<reference>false</reference>
+<referencedColumn>2F7A281E-E110-71B3-6F8E-58BF0B7062E6</referencedColumn>
+<table>FC736E5C-F6B5-CFB1-3382-F73A69422277</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Nazwisko" id="D3AD293E-618C-633C-A732-A699F07A539E">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (50)</dataType>
+<reference>false</reference>
+<referencedColumn>C4DD5332-F5F2-D596-4944-C73D18F83109</referencedColumn>
+<table>FC736E5C-F6B5-CFB1-3382-F73A69422277</table>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="Department_DepartmentId" id="4515CD5C-9E38-25E1-F739-A883907783F3">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 08:15:14 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>8D2CD7D3-CF5E-2BA9-39B2-48DF8C214E21</referencedColumn>
+<table>FC736E5C-F6B5-CFB1-3382-F73A69422277</table>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="FC736E5C-F6B5-CFB1-3382-F73A69422277">
+<container>true</container>
+<tableName>Pracownik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="05323809-E370-25BC-234D-095E0DE8E101">
+<columnName>IdPracownika</columnName>
+<tableName>Pracownik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="2F7A281E-E110-71B3-6F8E-58BF0B7062E6">
+<columnName>Imie</columnName>
+<tableName>Pracownik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="C4DD5332-F5F2-D596-4944-C73D18F83109">
+<columnName>Nazwisko</columnName>
+<tableName>Pracownik</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="8D2CD7D3-CF5E-2BA9-39B2-48DF8C214E21">
+<columnName>Department_DepartmentId</columnName>
+<tableName>Pracownik</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

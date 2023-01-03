@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09D7727D-883F-3A27-3B7C-CCA4036CFE04" name="Proj_Prac">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>545E4E43-ED48-12DC-BC55-AE6A327830E4</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Pracownik_IdPracownika" id="C201330A-799B-E092-63B8-778EA8FB98FE">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>4C73D09E-4BC1-B7B6-87FD-440F3BEEA751</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="822DB5EF-456D-9F38-7694-F979B3BBFD57" referredColumn="05323809-E370-25BC-234D-095E0DE8E101"/>
+</associations>
+</Column>
+<Column name="Projekt_IdProjektu" id="63B761D3-7E95-E17F-E6E0-4373FC76246F">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>D817F740-0408-BC8C-64D4-8FE79B02DEAC</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6E45231-FEBA-5F15-FCC3-CA087E14CB52" referredColumn="964B31C0-42F1-5111-0185-ED0135D345F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46CC1BCC-696B-C0BF-16A5-6F0F0AB92ED3" name="Proj_Prac_PK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>0C59B396-7C77-3E11-33DD-2C01DAABB6DA</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C201330A-799B-E092-63B8-778EA8FB98FE"/>
+<colUsage columnID="63B761D3-7E95-E17F-E6E0-4373FC76246F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64DE8486-ECE8-2CA3-0568-9BD9EB951BB7" name="Proj_Prac_Pracownik_FK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>FA5D1041-F224-30EA-6497-500BFF21BB64</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C201330A-799B-E092-63B8-778EA8FB98FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC96993E-E507-056F-35F8-57EC8D6974C6" name="Proj_Prac_Projekt_FK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:55:29 UTC</createdTime>
+<generatorID>D42D89F7-57D8-5217-2A87-1B2C99280011</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63B761D3-7E95-E17F-E6E0-4373FC76246F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

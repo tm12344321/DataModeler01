@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14ED995B-56B7-BBB3-615A-865DCEE77959" name="Pracownik">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:42:39 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdPracownika" id="66A12690-4C25-3237-55A5-625546D60476">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:43:05 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imie" id="A93F486E-DA52-5222-5C87-1C0421349CC7">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:43:36 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nazwisko" id="B08AE65F-4C3C-7CC1-89C8-7D85B10410E2">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:43:53 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DepartmentId" id="3230A5F0-50BC-D2AF-B3EB-972676C28FE1">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 07:27:07 UTC</createdTime>
+<generatorID>BB14FC78-7594-19B3-4805-7DD096E0B70B</generatorID>
+<ownerDesignName>wzor</ownerDesignName>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="true"/>
+</engineerTo>
+<referedAttribute>97D93CD9-F41D-7989-6005-5E48AA0478F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F0C174A-4062-5D43-9CD6-FC4431C3EDC8" name="Pracownik_PK">
+<createdBy>Tomek</createdBy>
+<createdTime>2023-01-03 06:45:12 UTC</createdTime>
+<ownerDesignName>wzor</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="02D17B3B-92D6-54E5-3905-207BE6375288" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>66A12690-4C25-3237-55A5-625546D60476</newElementsIDs>
+<usedAttributes>
+<attributeRef>66A12690-4C25-3237-55A5-625546D60476</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
